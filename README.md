@@ -12,10 +12,6 @@ Each field is taken directly from a column in Excel table. Every product in the 
 <ins> **Instructions**  </ins>
 1. Export all files from Volusion
 2. Rename downloaded file as "products_export_1"
-3. Open "Shopify-MS-Access-DB.zip" file and download Microsoft Access Project (Click on "View Raw")
-   
-![View Raw](https://github.com/user-attachments/assets/be8dcbbe-3a7a-48c7-8584-282154c13cba)
-
 3. Convert downloaded CSV file to Excel File
 4. Open Microsoft Access project and upload Excel file to Microsoft Access (External Data -> New Data Source -> Excel) Create a **Linked Table**
    
