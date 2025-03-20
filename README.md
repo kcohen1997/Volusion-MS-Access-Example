@@ -1,8 +1,5 @@
 # Volusion-MS-Access-Example
-Microsoft Access example dividing Shopify data in separate Product and Product Variant Tables
-
-Resource:
-https://help.shopify.com/en/manual/products/import-export/using-csv
+Microsoft Access example dividing Volusion data in separate Product and Product Variant Tables
 
 Volusion is a popular cloud-based e-comemrce platform that compiles all product information into one downloadable CSV file. While this is initially convenient, it can be difficult to tell how this information is structured (for example, how many different types or "variants" are there of the same product?)
 
@@ -13,8 +10,9 @@ This is where Microsoft Access is benefitial. By uploading the CSV file as an Ex
 Each field is taken directly from a column in Excel table. Every product in the Product List has one or multiple Product Variants, as defined by the above One-To-Many relationship. 
 
 <ins> **Instructions**  </ins>
-1. [Export All Products From Shopify ](https://help.shopify.com/en/manual/products/import-export/export-products) **DO NOT USE THE SAMPLE CSV PROVIDED IN THE RESOURCE LINK**
-2. Open "Shopify-MS-Access-DB.zip" file and download Microsoft Access Project (Click on "View Raw")
+1. Export all files from Volusion
+2. Rename downloaded file as "products_export_1"
+3. Open "Shopify-MS-Access-DB.zip" file and download Microsoft Access Project (Click on "View Raw")
    
 ![View Raw](https://github.com/user-attachments/assets/be8dcbbe-3a7a-48c7-8584-282154c13cba)
 
@@ -23,6 +21,6 @@ Each field is taken directly from a column in Excel table. Every product in the 
    
 ![New Data Source](https://github.com/user-attachments/assets/8be047f5-0838-425a-a590-0f778c0c57a3)
 
-5. Run provided SQL queries in the following order: Create Product List Table, Remove Variant Columns From Product List Table, Create Product Variants Table, Add Primary Keys (Add Product List Primary Key, Add Product Variants Primary Key), Add Foreign Key (more details in the "SQL" folder)
+5. Run provided SQL queries in the following order: Create Product List Table, Create Product Variants Table, Add Product List Primary Key, Add Product Variants Primary Key, Add Foreign Key (more details in the "SQL" folder)
 
 *Updated as of 3/18/2025
