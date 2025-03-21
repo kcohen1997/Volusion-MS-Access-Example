@@ -8,7 +8,7 @@ SQL Queries should be run in the following order:
 
 2. **Create Product Variants Table**: Using the uploaded product Excel file, create Product Variants table
 
-![Create Product Variants Table](https://github.com/user-attachments/assets/3962671e-e64a-40cd-af1b-c6224cdf0371)
+![Create Product Variants Table](https://github.com/user-attachments/assets/27212bdc-faa9-4eef-b68e-17f2b1a8b0cd)
 
 3. **Add Product List Primary Key**: Sets Primary Key for Product List as "Handle"
    
