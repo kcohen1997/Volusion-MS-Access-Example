@@ -12,12 +12,17 @@ This is where Microsoft Access is benefitial. By uploading the CSV file as an Ex
 Each field is taken directly from a column in Excel table. Every product in the Product List has one or multiple Product Variants, as defined by the above One-To-Many relationship. 
 
 <ins> **Instructions**  </ins>
-1. Export all files from Volusion
-2. Rename downloaded file as "products_export_1"
-3. Convert downloaded CSV file to Excel File
-4. Open Microsoft Access project and upload Excel file to Microsoft Access (External Data -> New Data Source -> Excel) Create a **Linked Table**
+1. Export Product, Option Categories, and Options from Volusion.
+2. Convert downloaded CSV files to Excel Files
+3. Open Microsoft Access project and upload each Excel file to Microsoft Access (External Data -> New Data Source -> Excel) 
    
 ![New Data Source](https://github.com/user-attachments/assets/8be047f5-0838-425a-a590-0f778c0c57a3)
+
+Create a **Linked Table** from the Product, Option Categories, and Options Excel files
+
+![Linked Table](https://github.com/user-attachments/assets/670e1533-85b0-4d02-b782-98d889aeded6)
+
+4. Once all three Linked tables have been created, rename each Linked Table. ([Product] => Product Export, [Option Categories] => Option Categories Export, [Options] => Options Export
 
 5. Run provided SQL queries in the order provided in "SQL Queries" folder
 
