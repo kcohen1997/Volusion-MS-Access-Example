@@ -10,12 +10,16 @@ SQL Queries should be run in the following order:
 
 ![Create Product Variants Table](https://github.com/user-attachments/assets/27212bdc-faa9-4eef-b68e-17f2b1a8b0cd)
 
-3. **Add Product List Primary Key**: Sets Primary Key for Product List as "Handle"
+3. **Create Option List Table**: Using the uploaded options and option category Excel files, create Option List table
+
+![Create Option List Table](https://github.com/user-attachments/assets/a9f964df-d471-428b-ac3c-6ca554546be7)
+
+4. **Add Product List Primary Key**: Sets Primary Key for Product List as "Handle"
    
 ![Add Product List Primary Key](https://github.com/user-attachments/assets/5208471a-1661-4113-8541-bb99d6e8cfd3)
 
 
-4. **Add Product Variants Primary Key**: Sets Primary Key for Product Variants as "Variant SKU" and "Handle" (this is because "Variant SKU" is not a required field, "Handle" is required but is not unique)
+5. **Add Product Variants Primary Key**: Sets Primary Key for Product Variants as "Variant SKU" and "Handle" (this is because "Variant SKU" is not a required field, "Handle" is required but is not unique)
    
 ![Add Product Variants Primary Key](https://github.com/user-attachments/assets/a9af955d-7595-403d-a818-62d65124fd39)
 
