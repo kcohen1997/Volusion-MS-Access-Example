@@ -14,7 +14,8 @@ Each field is taken directly from a column in Excel table. Every product in the 
 <ins> **Instructions**  </ins>
 1. Export Product, Option Categories, and Options from Volusion.
 2. Convert downloaded CSV files to Excel Files
-3. Open Microsoft Access project and upload each Excel file to Microsoft Access (External Data -> New Data Source -> Excel) 
+3. Download and open Volusion-MS-Access-DB Microsoft Access project
+4. Upload each Excel file to Microsoft Access project (External Data -> New Data Source -> Excel) 
    
 ![New Data Source](https://github.com/user-attachments/assets/8be047f5-0838-425a-a590-0f778c0c57a3)
 
@@ -22,8 +23,7 @@ Create a **Linked Table** from the Product, Option Categories, and Options Excel
 
 ![Linked Table](https://github.com/user-attachments/assets/670e1533-85b0-4d02-b782-98d889aeded6)
 
-4. Once all three Linked tables have been created, rename each Linked Table. ([Product] => Product Export, [Option Categories] => Option Categories Export, [Options] => Options Export
-
-5. Run provided SQL queries in the order provided in "SQL Queries" folder
+5. Once all three Linked tables have been created, rename each Linked Table ([Product] => Product Export, [Option Categories] => Option Categories Export, [Options] => Options Export)
+6. Run provided SQL queries in the order provided in "SQL Queries" folder
 
 
