@@ -1,3 +1,0 @@
-SELECT productcode, productname, hideproduct, productprice, listprice, saleprice, length, width, height, productweight, productdescriptionshort, productdescription, productdescription_abovepricing, productfeatures, metatag_title, metatag_description, metatag_keywords, fixed_shippingcost, discountedprice_level1, discountedprice_level2, discountedprice_level3, discountedprice_level4, autodropship, donotallowbackorders, freeshippingitem, taxableproduct, ships_by_itself, oversized, additional_handling_indicator, customfield2, lastmodified, createddate, createdutc, modifiedutc, photo_alttext, producturl, photourl INTO [Product List]
-FROM products_export_1
-WHERE ischildofproductcode IS NULL;
