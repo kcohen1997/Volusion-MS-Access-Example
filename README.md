@@ -1,4 +1,6 @@
 # Volusion-MS-Access-Example
+*Updated as of 3/27/2025
+
 Microsoft Access example dividing Volusion data in separate Product and Product Variant Tables
 
 Volusion is a popular cloud-based e-comemrce platform that compiles all product information into one downloadable CSV file. While this is initially convenient, it can be difficult to tell how this information is structured (for example, how many different types or "variants" are there of the same product?)
@@ -17,6 +19,6 @@ Each field is taken directly from a column in Excel table. Every product in the 
    
 ![New Data Source](https://github.com/user-attachments/assets/8be047f5-0838-425a-a590-0f778c0c57a3)
 
-5. Run provided SQL queries in the following order: Create Product List Table, Create Product Variants Table, Add Product List Primary Key, Add Product Variants Primary Key, Add Foreign Key (more details in the "SQL" folder)
+5. Run provided SQL queries in the order provided in "SQL Queries" folder
 
-*Updated as of 3/18/2025
+
