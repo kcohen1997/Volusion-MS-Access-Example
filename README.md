@@ -23,11 +23,10 @@ Each field is taken directly from a column in Excel table. Every product in the 
    
 ![New Data Source](https://github.com/user-attachments/assets/8be047f5-0838-425a-a590-0f778c0c57a3)
 
-Create a **Linked Table** from the Product, Option Categories, and Options Excel files
+Create a **Linked Table** from the Product, Option Categories, and Options Excel files. Name each Linked Table to the following: [Product] => Product Export, [Option Categories] => Option Categories Export, [Options] => Options Export
 
 ![Linked Table](https://github.com/user-attachments/assets/670e1533-85b0-4d02-b782-98d889aeded6)
 
-5. Once all three Linked tables have been created, rename each Linked Table ([Product] => Product Export, [Option Categories] => Option Categories Export, [Options] => Options Export)
 6. Run provided SQL queries in the order provided in "SQL Queries" folder
 
 
