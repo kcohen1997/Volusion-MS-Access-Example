@@ -1,5 +1,4 @@
 # Volusion-MS-Access-Example
-*Updated as of 3/28/2025
 
 Microsoft Access example dividing Volusion data in separate Product and Product Variant Tables
 
